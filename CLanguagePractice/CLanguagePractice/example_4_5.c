@@ -9,10 +9,14 @@ int example_4_5_main()
 	int value = 1;
 	int result = 0;
 
+	// result = value - 1;
+	// value = value - 1;
 	result = value++ - 1;
 
 	printf( " value  = %d, result = %d \n", value, result );
 
+	// value = value + 1;
+	// result = value + 1;
 	result = ++value + 1;
 
 	printf( " value  = %d, result = %d \n", value, result );

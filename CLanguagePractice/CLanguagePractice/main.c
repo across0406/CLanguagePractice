@@ -19,6 +19,7 @@
 #include "example_9_5.h"
 #include "example_9_6.h"
 #include "example_9_7.h"
+#include "example_11_1.h"
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -45,6 +46,7 @@
 #define EXAMPLE_9_5		18
 #define EXAMPLE_9_6		19
 #define EXAMPLE_9_7		20
+#define EXAMPLE_11_1	21
 
 int main()
 {
@@ -146,6 +148,10 @@ int main()
 
 			case EXAMPLE_9_7:
 				example->example_main = example_9_7_main;
+				break;
+				
+			case EXAMPLE_11_1:
+				example->example_main = example_11_1_main;
 				break;
 
 			case EXIT:
